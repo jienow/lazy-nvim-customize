@@ -21,3 +21,4 @@ map({ "i", "v" }, "jk", "<esc>", { silent = true, desc = "exit insert" })
 
 map({ "n", "v" }, "H", "^", { silent = true, desc = "line left" })
 map({ "n", "v" }, "L", "$", { silent = true, desc = "line right" })
+map({ "n", "v" }, "vv", "<c-v>", { silent = true, desc = "line right" })
